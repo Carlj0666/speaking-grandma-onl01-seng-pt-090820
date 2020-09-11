@@ -1,7 +1,7 @@
 # Write a speak_to_grandma method.
 ref speak_to_grandma(string)
   if string !== string.upcase
-    return puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   elsif string.upcase
     return "NO, NOT SINCE 1938!"
   elsif string.upcase && string == "I LOVE YOU GRANDMA!"
