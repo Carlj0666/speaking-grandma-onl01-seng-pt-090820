@@ -1,5 +1,5 @@
 # Write a speak_to_grandma method.
-ref speak_to_grandma(string)
+def speak_to_grandma(string)
   if string !== string.upcase
     return "HUH?! SPEAK UP, SONNY!"
   elsif string.upcase
